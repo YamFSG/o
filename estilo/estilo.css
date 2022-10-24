@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Nixie;
+    src: url(fonte/NixieOne.ttf) format('truetype');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #E3A306;
+}
+
+/*círculos*/
+#vermelho {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #B2323B;
+    position: relative;
+    margin-right: 10px;
+}
+
+#azul {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #164971;
+    position: relative;
+    margin-right: 10px;
+}
+
+#amarelo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #E88D24;
+}
+
+.circulos {
+    display: flex;
+    justify-content: center;
+}
+/*círculos*/
+
+.titulo{
+    font-family: Nixie;
+}
+
+/*imagem*/
+.contender {
+    text-align: center;
+    line-height: 98vh;
+}
+
+.contender .ostres {
+    vertical-align: bottom;
+}
+/*imagem*/
