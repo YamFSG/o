@@ -11,6 +11,7 @@
     background-color: #E3A306;
 }
 
+/*header*/
 /*círculos*/
 #vermelho {
     width: 20px;
@@ -40,20 +41,30 @@
 .circulos {
     display: flex;
     justify-content: center;
+    margin-top: 25px;
 }
 /*círculos*/
 
 .titulo{
+    font-size: 25px;
+    letter-spacing: 7px;
+    margin-top: 15px;
+    text-align: center;
     font-family: Nixie;
 }
 
+/*nav*/
+
+/*nav*/
+/*header*/
+
 /*imagem*/
-.contender {
+.rodape{
     text-align: center;
-    line-height: 98vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
-.contender .ostres {
-    vertical-align: bottom;
-}
 /*imagem*/
